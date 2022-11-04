@@ -28,7 +28,7 @@ li {
   transition: 0.3s ease;
 }
 a {
-  padding: 50px;
+  padding: none;
   text-decoration: none;
   color: rgb(100, 120, 2000);
   font-size: 18px;
