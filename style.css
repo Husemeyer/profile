@@ -1,13 +1,13 @@
 body {
   font-family: Overpass;
-  background-color: rgba(139, 188, 204, 0.10);
+  padding: 10px;
   color: 4C6793;
   padding: 30px;
   text-align: center;
 }
 h1 {
   font-family: Chivo;
-  color: #5C2E7E;
+  color: #607d8b;
 }
 h2,h3 {
   font-family: Chivo;
@@ -15,7 +15,6 @@ h2,h3 {
 }
 li {
   list-style-type: none;
-  display: inline-block;
   text-align: center;
   padding: none;
   text-decoration: none;
@@ -25,6 +24,7 @@ li {
   transition: 0.3s ease;
 }
 a {
+  padding: 50px
   text-decoration: none;
   color: rgb(100, 120, 2000);
   font-size: 18px;
@@ -36,12 +36,18 @@ a:hover {
 }
 .card {
   background-color: white;
-  padding: 20px;
-  width: 500px;
+  padding: 15px;
+  width: 600px;
   margin: 25px auto;
   border-radius: 6px;
   border: 1.5px solid #EAEAEA;
-  box-shadow: 10px 10px 30px 10px lightblue;
+  box-shadow: 10px 10px 30px 10px #607d8b;
+}
+.card-banner {
+  padding: 20px
+}
+.container {
+  padding: 20px
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
