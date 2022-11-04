@@ -6,12 +6,16 @@ body {
   text-align: center;
 }
 h1 {
-  font-family: Chivo;
+  font-family: Helvetica, sans-serif;
   color: #607d8b;
 }
-h2,h3 {
+h2 {
   font-family: Chivo;
   color: rgb(125, 206, 19);
+}
+h3 {
+  font-family: Helvetica, sans-serif;
+  color:  #607d8b;
 }
 li {
   list-style-type: none;
